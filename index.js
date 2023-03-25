@@ -22,7 +22,7 @@ app.use("/api/pets", petRoutes);
 app.use("/api/category", categoryRoutes);
 app.use("/api/adoption", adoptionRoutes);
 
-const mongodbUri = "mongodb://localhost:27017/Woof";
+const mongodbUri = "mongodb+srv://sumankalia:Just23456789@cluster0.vjmqg.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(mongodbUri, {
   useNewUrlParser: true,
